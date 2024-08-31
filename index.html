@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book_review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <h1>BookRev</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>The tempest</h2>
+            <h5>Shakesphere</h5><br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nisi voluptatibus dolore quas fugit ad qui? Deserunt eligendi, nobis delectus ea sint accusantium. Commodi, dolores ipsam impedit quisquam sapiente ex.</p>
+            <br><button onclick="del(event)">Delete</button>
+    </div>
+   
+</div>
+<button class="add-button" id="add-popupbutton">+</button>
+<div class="popup-overlay"></div>
+<div class="popup-box">
+    <h2>Add book</h2>
+    <form id="mform">
+        <input placeholder="Book Title" id="bktit">
+        <input type="text" placeholder="Book Author" id="bkathr"><br>
+        <textarea placeholder="Short Description" id="bkdes"></textarea>
+        <button id="add">Add</button>
+        <button id="cancel">Cancel</button>
+    </form>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
